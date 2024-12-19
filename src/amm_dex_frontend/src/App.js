@@ -12,7 +12,7 @@ class App {
   #handleSubmit = async (e) => {
     e.preventDefault();
     const name = document.getElementById('name').value;
-    this.greeting = await amm_dex_backend.greet(name);
+    this.greeting = "Placeholder, " + name + "!";
     this.#render();
   };
 
